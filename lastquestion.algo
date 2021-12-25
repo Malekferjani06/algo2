@@ -33,5 +33,6 @@ FOR k FROM 0 TO length(array_two)-1 STEP 1 DO
        sum:=sum+array_two[l]
    END_IF
 END_FOR
+    Write(sum)
 
 END
